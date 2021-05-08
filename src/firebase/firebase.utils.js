@@ -3,13 +3,13 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 const config = {
-  apiKey: "AIzaSyAcTAEyrLWNK94vbJh0jaJGBe4dnpsj5iQ",
-  authDomain: "crwn-clothing-eb226.firebaseapp.com",
-  projectId: "crwn-clothing-eb226",
-  storageBucket: "crwn-clothing-eb226.appspot.com",
-  messagingSenderId: "555551517824",
-  appId: "1:555551517824:web:a817911b3563af64974a65",
-  measurementId: "G-HP1Q5X89BT",
+  apiKey: "AIzaSyBIDD24Cy1wWuwHO4R-1m6DgabkIYLQuGA",
+  authDomain: "crwn-clothing-219cb.firebaseapp.com",
+  projectId: "crwn-clothing-219cb",
+  storageBucket: "crwn-clothing-219cb.appspot.com",
+  messagingSenderId: "988656042389",
+  appId: "1:988656042389:web:d38a98ee5851a39f81b69c",
+  measurementId: "G-3NGN7CS6S3",
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
