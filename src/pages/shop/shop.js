@@ -3,8 +3,6 @@ import React from "react";
 import CollectionOverview from "../../components/collection_overview/collection_overview";
 import { Route } from "react-router-dom";
 import CollectionPage from "../collection/collection";
-import { connect } from "react-redux";
-import { selectCollection } from "../../redux/shop/shop_reselector";
 
 const ShopPage = ({ match }) => {
   return (
@@ -14,9 +12,5 @@ const ShopPage = ({ match }) => {
     </div>
   );
 };
-
-const mapStateToProps = (state, ownProps) => ({
-  collection: selectCollection(ownProps.match.params.collectionId)(state),
-});
 
 export default ShopPage;
